@@ -102,7 +102,7 @@ const App: React.FC = () => {
             <div className="text-center mb-12">
               <h2 className="text-4xl font-black text-slate-900 mb-4 tracking-tight">Extract data in seconds.</h2>
               <p className="text-slate-500 text-lg font-medium max-w-xl mx-auto leading-relaxed">
-                Our Gemini-powered engine identifies complex tables and key fields across multiple pages with surgical accuracy.
+                Our engine identifies complex tables and key fields across multiple pages with surgical accuracy.
               </p>
             </div>
 
