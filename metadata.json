@@ -1,0 +1,8 @@
+
+{
+  "name": "Invoice Data Extractor Pro",
+  "description": "A powerful tool that uses Gemini AI to extract structured data from invoice PDFs and images, then exports them directly to Excel. It identifies tables and key-value pairs while intelligently filtering out unnecessary company header information.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
