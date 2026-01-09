@@ -85,7 +85,7 @@ export async function extractInvoiceData(file: File): Promise<ExtractionResult> 
         }
       }
     });
-
+    console.log('Respones',response);
     const text = response.text;
     if (!text) throw new Error("No data received from Gemini");
     
