@@ -20,11 +20,16 @@ export interface ExtractionResult {
   pages: PageResult[];
 }
 
+
 export interface AppState {
-  file: File | null;
-  filePreview: string | null;
+  file: null | File;
+  filePreview: null | string;
   isReading: boolean;
   isProcessing: boolean;
-  result: ExtractionResult | null;
-  error: string | null;
+  result: null | ExtractionResult;
+  error: null | string;
+  showPasswordDialog: boolean;
+  password: string;
 }
+
+
